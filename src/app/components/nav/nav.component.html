@@ -1,10 +1,10 @@
-<mat-toolbar>
-    <div style="margin-left: 25%; ">
+<mat-toolbar >
+    <div style="margin-left: 2%; ">
         <span>QUITZILLA</span>
     </div>
 
     <ng-container *ngIf="authService.userData as user; else loginButt">
-        <div style="margin-left: 35%;">
+        <div style="margin-left: 82%;">
             <button (click)="logout()">
                 <mat-icon>logout</mat-icon>
                 Logout
@@ -13,13 +13,11 @@
     </ng-container>
 
     <ng-template #loginButt>
-        <div style="margin-left: 35%;">
+        <div style="margin-left: 82%;">
             <button routerLink=''>
                 <mat-icon>login</mat-icon>
                 Login
             </button>
         </div>
     </ng-template>
-    
-
 </mat-toolbar>

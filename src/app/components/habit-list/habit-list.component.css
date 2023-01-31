@@ -1,15 +1,17 @@
 .main-div{
+    top: 25%;
     padding: 5px;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
-
-mat-card-title {
-  font-size: rem;
-}
-
-span {
-  padding: 12px;
+.header-add-habits{
+  position: -webkit-sticky;
+  position: sticky;
+  text-align: center;
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b3be1dae-3caa-4d45-be6c-3de586ba95e2/deudrla-9ea87876-55d4-4b6c-b1e2-e6ca3a52b750.jpg/v1/fill/w_1600,h_900,q_75,strp/glowing_purple_cloud_by_bisbiswas_deudrla-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAwIiwicGF0aCI6IlwvZlwvYjNiZTFkYWUtM2NhYS00ZDQ1LWJlNmMtM2RlNTg2YmE5NWUyXC9kZXVkcmxhLTllYTg3ODc2LTU1ZDQtNGI2Yy1iMWUyLWU2Y2EzYTUyYjc1MC5qcGciLCJ3aWR0aCI6Ijw9MTYwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.tW6r92eyKeXQSln2vSBSatcl8Fv6kQjcMwN2phNIUVQ); 
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .prog-wrapper {
@@ -17,5 +19,48 @@ span {
 }
 
 .button-wrapper{
-  padding: 12px;
+  padding: 20px;
 }
+
+button {
+  appearance: none;
+  background-color: transparent;
+  border: 0.125em solid #1A1A1A;
+  border-radius: 0.9375em;
+  box-sizing: border-box;
+  color: #3B3B3B;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 3.75em;
+  min-width: 0;
+  outline: none;
+  padding: 1em 2.3em;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  will-change: transform;
+ }
+ 
+ button:disabled {
+  pointer-events: none;
+ }
+ 
+ button:hover {
+  color: #fff;
+  background-color: #DD6CF7;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+ }
+ 
+ button:active {
+  box-shadow: none;
+  transform: translateY(0);
+ }

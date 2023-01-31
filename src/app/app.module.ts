@@ -38,6 +38,7 @@ import { HotToastModule } from '@ngneat/hot-toast';
 import { AddHabitComponent } from './components/add-habit/add-habit.component';
 import { EditHabitComponent } from './components/edit-habit/edit-habit.component';
 import { AuthenticationService } from './services/authentication.service';
+import {MatGridListModule} from '@angular/material/grid-list';
 
 @NgModule({
   declarations: [
@@ -68,6 +69,7 @@ import { AuthenticationService } from './services/authentication.service';
     MatDatepickerModule,
     AppRoutingModule,
     MatNativeDateModule,
+    MatGridListModule,
     provideFirebaseApp(() => initializeApp(environment.firebase)),
     AngularFireModule.initializeApp(environment.firebase),
     AngularFirestoreModule,

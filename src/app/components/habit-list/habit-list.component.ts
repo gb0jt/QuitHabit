@@ -9,6 +9,7 @@ import { DataService } from 'src/app/services/data.service';
 import { Habit } from 'src/app/model/habit';
 import { HotToastModule, HotToastService } from '@ngneat/hot-toast';
 import { DatePipe } from '@angular/common';
+import {MatGridListModule} from '@angular/material/grid-list';
 
 
 @Component({
