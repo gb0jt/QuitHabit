@@ -1,19 +1,20 @@
-.main-div{
-    top: 25%;
-    padding: 5px;
-    margin-left: 10%;
-    margin-right: 10%;
-}
 .header-add-habits{
+  top: 7%;
   position: -webkit-sticky;
   position: sticky;
   text-align: center;
+  padding: 50px;
   background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b3be1dae-3caa-4d45-be6c-3de586ba95e2/deudrla-9ea87876-55d4-4b6c-b1e2-e6ca3a52b750.jpg/v1/fill/w_1600,h_900,q_75,strp/glowing_purple_cloud_by_bisbiswas_deudrla-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAwIiwicGF0aCI6IlwvZlwvYjNiZTFkYWUtM2NhYS00ZDQ1LWJlNmMtM2RlNTg2YmE5NWUyXC9kZXVkcmxhLTllYTg3ODc2LTU1ZDQtNGI2Yy1iMWUyLWU2Y2EzYTUyYjc1MC5qcGciLCJ3aWR0aCI6Ijw9MTYwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.tW6r92eyKeXQSln2vSBSatcl8Fv6kQjcMwN2phNIUVQ); 
   background-size: cover; 
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment:fixed;
 }
-
+.main-div{
+  top: 25%;
+  padding: 5px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
 .prog-wrapper {
   padding: 12px;
 }
